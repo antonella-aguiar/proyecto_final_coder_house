@@ -1,0 +1,73 @@
+const productos = [
+    {
+        id: 1,
+        nombre:"Batidora Planetaria Atma" ,
+        precio: 100000,
+        img: "./img/batidora planetaria atma bpat21grp.jpg",
+        cantidad: 1
+    },
+    {
+        id: 2,
+        nombre:"Cloudbook 14'' Lenovo",
+        precio: 130000,
+        img:"./img/Cloudbook 14'' lenovo IP1-81VU0065.jpeg",
+        cantidad: 1
+    },
+    {
+        id: 3,
+        nombre:"Joystick Inalámbrico PS4",
+        precio: 40000,
+        img:"./img/Joystick dorado ps4.jpg",
+        cantidad: 1
+    },
+    {
+        id: 4,
+        nombre:"Hidrolavadora 1200W Daewoo",
+        precio: 82000,
+        img:"./img/Hidrolavadora 1200W Daewoo DAX1130.jpeg",
+        cantidad: 1
+    },
+    {
+        id: 5,
+        nombre:"Luz Proton Led Ecosmart",
+        precio: 25000,
+        img:"./img/Luz proton led ecosmart es-3600p.jpg",
+        cantidad: 1
+    },
+    {
+        id: 6,
+        nombre:"Parlante Portátil Bluetooth Crown Mustang",
+        precio: 35000,
+        img:"./img/parlante bluetooth crown mustang djs820bt 2.jpg",
+        cantidad: 1
+    },
+    {
+        id: 7,
+        nombre:"Planchita de pelo Duga",
+        precio: 40000,
+        img:"./img/Planchita duga sw-207 negra.jpg",
+        cantidad: 1
+    },
+    {
+        id: 8,
+        nombre:"Reloj Inteligente Xiaomi Amazfit Bip",
+        precio: 65000,
+        img:"./img/Reloj amazfit bip A1608 costado.jpg",
+        cantidad: 1
+    },
+    {
+        id: 9,
+        nombre:"Samsung Galaxy A04e",
+        precio: 180000,
+        img:"./img/samsung galaxy a04e.jpeg",
+        cantidad: 1
+    },
+    {
+        id: 10,
+        nombre:"Tensiometro de Brazo Digital Aspen",
+        precio: 46000,
+        img:"./img/Tensiometro digital automatico de brazo prevent aspen cf155f.jpg",
+        cantidad: 1
+    }
+
+]
