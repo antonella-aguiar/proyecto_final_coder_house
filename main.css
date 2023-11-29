@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cont-nav {
     display: flex;
@@ -8,16 +9,19 @@ body{
     align-items: center;
     max-width: 100%;
     height: 80px;
-    background-color: lightblue;
-    padding: 0 6px;
+    background-color: #172030;
+    padding: 0 22px;
+    color: white;
 }
 .titulo {
     font-size: 39px;
+    padding: 0;
+    margin: 0;
 }
 
 .shopContent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -26,7 +30,8 @@ body{
     margin: 20px;
     padding: 10px;
     max-width: 300px;
-    box-shadow: 0 2px 8px 0 rgb(170, 169, 169)
+    box-shadow: 0 2px 8px 0 rgb(3, 126, 193);
+    border-radius: 20px;
 }
 .card > img {
     max-width: 100%;
@@ -39,28 +44,34 @@ body{
 
 .btn-comprar{
     border: none;
-    background-color: black;
-    border-radius: 5px;
+    background-color: #263045;
+    border-radius: 14px;
     color: white;
     padding: 5px 13px;
     max-width: 100%;
+    cursor: pointer;
 }
 
 .btn-comprar:hover{
     opacity: 0.7;
 }
 
+h1#verCarrito {
+    cursor: pointer;
+}
+
 .modal-container{
     width: 80%;
     margin: 0 10%;
     color: white;
-    background-color: black;
+    background-color: #627497;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: fixed;
     top: 12vh;
     scrollbar-color: none;
+    border-radius: 40px;
 }
 
 .modal-container::-webkit-scrollbar{
@@ -70,9 +81,11 @@ body{
 .modal-header{
     display: flex;
     justify-content: space-around;
-    background-color: white;
-    color: black;
+    background-color: #0C1018;
+    color: white;
     width: 100%;
+    border-radius: 40px 40px 0 0 ;
+    
 }
 .modalHeader-title{
     justify-self: start;
@@ -101,4 +114,39 @@ body{
 
 .delete-product{
     cursor: pointer;
+}
+.cantidad-carrito{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 2px 6px;
+    top: 42px;
+    right: 20px;
+    position: absolute;
+    display: none;
+}
+.sumar{
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #0C1018;
+    border-radius: 3px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.restar{
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #0C1018;
+    border-radius: 3px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
